@@ -20,6 +20,7 @@ env:
   # Juice Shop no produce alertas High, por eso el umbral parte de Medium.
   ZAP_MIN_RISK: "2"
   # DefectDojo: producto y engagement donde se organizan los resultados.
+  DD_PRODUCT_TYPE: Research and Development
   DD_PRODUCT: Juice Shop G18
   DD_ENGAGEMENT: Pipeline CI
 
@@ -201,6 +202,7 @@ jobs:
               -H "Authorization: Token $DD_TOKEN" \
               -F "file=@$2" \
               --form-string "scan_type=$1" \
+              --form-string "product_type_name=$DD_PRODUCT_TYPE" \
               --form-string "product_name=$DD_PRODUCT" \
               --form-string "engagement_name=$DD_ENGAGEMENT" \
               --form-string "test_title=$1" \
