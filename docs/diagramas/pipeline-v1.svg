@@ -87,5 +87,5 @@ text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
 <g class="c-red"><rect x="348" y="372" width="306" height="70" rx="8" stroke-width="0.5"/>
 <text class="th" x="501" y="391" text-anchor="middle" dominant-baseline="central">Gate B · bloqueante</text>
 <text class="ts" x="501" y="410" text-anchor="middle" dominant-baseline="central">El pipeline falla y no hay deploy</text>
-<text class="ts" x="501" y="426" text-anchor="middle" dominant-baseline="central">Umbral: ≥1 alerta ZAP de riesgo High</text></g>
+<text class="ts" x="501" y="426" text-anchor="middle" dominant-baseline="central">Umbral: ≥1 alerta ZAP Medium o High</text></g>
 </svg>
